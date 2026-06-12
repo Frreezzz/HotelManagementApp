@@ -1,0 +1,1087 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.10)  12 JUN 2026 11:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./praca.tex
+(praca.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
+(urdpl.cls
+Document Class: urdpl 2025/12/18 v2.0 UR diploma class
+*** [urdpl.cls] --- (ZG, EZ) v2.1 <25.02.2026> ***
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count276
+\c@chapter=\count277
+\c@section=\count278
+\c@subsection=\count279
+\c@subsubsection=\count280
+\c@paragraph=\count281
+\c@subparagraph=\count282
+\c@figure=\count283
+\c@table=\count284
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count285
+\Gm@cntv=\count286
+\c@Gm@tempcnt=\count287
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks18
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2026-05-17 v3.0m Driver-dependent file (DPC,SPQR)
+) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip51
+\f@nch@offset@elh=\skip52
+\f@nch@offset@erh=\skip53
+\f@nch@offset@olh=\skip54
+\f@nch@offset@orh=\skip55
+\f@nch@offset@elf=\skip56
+\f@nch@offset@erf=\skip57
+\f@nch@offset@olf=\skip58
+\f@nch@offset@orf=\skip59
+\f@nch@height=\skip60
+\f@nch@footalignment=\skip61
+\f@nch@widthL=\skip62
+\f@nch@widthC=\skip63
+\f@nch@widthR=\skip64
+\@temptokenb=\toks19
+) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen161
+\ttl@minus=\dimen162
+\ttl@toksa=\toks20
+\titlewidth=\dimen163
+\titlewidthlast=\dimen164
+\titlewidthfirst=\dimen165
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip67
+\cftbeforetoctitleskip=\skip68
+\cftaftertoctitleskip=\skip69
+\cftbeforepartskip=\skip70
+\cftpartnumwidth=\skip71
+\cftpartindent=\skip72
+\cftbeforechapskip=\skip73
+\cftchapindent=\skip74
+\cftchapnumwidth=\skip75
+\cftbeforesecskip=\skip76
+\cftsecindent=\skip77
+\cftsecnumwidth=\skip78
+\cftbeforesubsecskip=\skip79
+\cftsubsecindent=\skip80
+\cftsubsecnumwidth=\skip81
+\cftbeforesubsubsecskip=\skip82
+\cftsubsubsecindent=\skip83
+\cftsubsubsecnumwidth=\skip84
+\cftbeforeparaskip=\skip85
+\cftparaindent=\skip86
+\cftparanumwidth=\skip87
+\cftbeforesubparaskip=\skip88
+\cftsubparaindent=\skip89
+\cftsubparanumwidth=\skip90
+\cftbeforeloftitleskip=\skip91
+\cftafterloftitleskip=\skip92
+\cftbeforefigskip=\skip93
+\cftfigindent=\skip94
+\cftfignumwidth=\skip95
+\c@lofdepth=\count288
+\c@lotdepth=\count289
+\cftbeforelottitleskip=\skip96
+\cftafterlottitleskip=\skip97
+\cftbeforetabskip=\skip98
+\cfttabindent=\skip99
+\cfttabnumwidth=\skip100
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen166
+\captionmargin=\dimen167
+\caption@leftmargin=\dimen168
+\caption@rightmargin=\dimen169
+\caption@width=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count290
+\c@continuedfloat=\count291
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count292
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count293
+) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2026-05-15 v3.5.5 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count294
+\l__siunitx_number_exponent_fixed_int=\count295
+\l__siunitx_number_min_decimal_int=\count296
+\l__siunitx_number_min_integer_int=\count297
+\l__siunitx_number_round_precision_int=\count298
+\l__siunitx_number_lower_threshold_int=\count299
+\l__siunitx_number_upper_threshold_int=\count300
+\l__siunitx_number_group_first_int=\count301
+\l__siunitx_number_group_size_int=\count302
+\l__siunitx_number_group_min_int=\count303
+\l__siunitx_number_group_minimum_int=\count304
+\l__siunitx_compound_count_int=\count305
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count306
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen174
+))
+\l__siunitx_table_tmp_box=\box54
+\l__siunitx_table_tmp_dim=\dimen175
+\l__siunitx_table_column_width_dim=\dimen176
+\l__siunitx_table_integer_box=\box55
+\l__siunitx_table_decimal_box=\box56
+\l__siunitx_table_uncert_box=\box57
+\l__siunitx_table_before_box=\box58
+\l__siunitx_table_after_box=\box59
+\l__siunitx_table_before_dim=\dimen177
+\l__siunitx_table_carry_dim=\dimen178
+\l__siunitx_unit_tmp_int=\count307
+\l__siunitx_unit_position_int=\count308
+\l__siunitx_unit_total_int=\count309
+\l__siunitx_sexagesimal_tmp_dim=\dimen179
+\l__siunitx_sexagesimal_marker_box=\box60
+\l__siunitx_sexagesimal_unit_box=\box61
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
+\col@sep=\dimen180
+\ar@mcellbox=\box62
+\extrarowheight=\dimen181
+\NC@list=\toks22
+\extratabsurround=\skip101
+\backup@length=\skip102
+\ar@cellbox=\box63
+))
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks23
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip103
+\enit@outerparindent=\dimen182
+\enit@toks=\toks24
+\enit@inbox=\box64
+\enit@count@id=\count310
+\enitdp@description=\count311
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/nowidow\nowidow.sty
+Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
+Package: nowidow 
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+\descriptiondashgap=\skip104
+\eqwheremargin=\skip105
+) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count312
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2084.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2086.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2088.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2089.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2090.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2092.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2117.
+\U@D=\dimen183
+\l@unhyphenated=\language79
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count313
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4228.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pl\babel
+-polish.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4356.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+Package babel Info: Importing font and identification data for polish
+(babel)             from babel-pl.ini. Reported on input line 4356.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/babel-polish\polish.ldf
+Language: polish 2022/03/12 1.3 Babel support for Polish
+Package babel Info: Making " an active character on input line 101.
+)) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count314
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen184
+\Hy@linkcounter=\count315
+\Hy@pagecounter=\count316
+ (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count317
+ (C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count318
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen185
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count319
+\Field@Width=\dimen186
+\Fld@charsize=\dimen187
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count320
+\c@Item=\count321
+\c@Hfootnote=\count322
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
+\Fld@listcount=\count323
+\c@bookmark@seq@number=\count324
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip106
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count325
+\float@exts=\toks27
+\float@box=\box65
+\@float@everytoks=\toks28
+\@floatcapt=\box66
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count326
+\lst@gtempboxa=\box67
+\lst@token=\toks29
+\lst@length=\count327
+\lst@currlwidth=\dimen188
+\lst@column=\count328
+\lst@pos=\count329
+\lst@lostspace=\dimen189
+\lst@width=\dimen190
+\lst@newlines=\count330
+\lst@lineno=\count331
+\lst@maxwidth=\dimen191
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count332
+\lst@skipnumbers=\count333
+\lst@framebox=\box68
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2026-01-28 v4.27 Multi-page Table package (DPC)
+\LTleft=\skip107
+\LTright=\skip108
+\LTpre=\skip109
+\LTpost=\skip110
+\LTchunksize=\count334
+\LTcapwidth=\dimen192
+\LT@head=\box69
+\LT@firsthead=\box70
+\LT@foot=\box71
+\LT@lastfoot=\box72
+\LT@gbox=\box73
+\LT@cols=\count335
+\LT@rows=\count336
+\c@LT@tables=\count337
+\c@LT@chunks=\count338
+\LT@p@ftn=\toks30
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 10
+4.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count339
+) (praca.aux)
+\openout1 = `praca.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count340
+\scratchdimen=\dimen193
+\scratchbox=\box74
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen194
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks32
+)
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(99.58464pt, 426.79135pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=702.78308pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
+* \topmargin=-54.59085pt
+* \headheight=28.45274pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=28.45274pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-polish.trsl
+File: translations-basic-dictionary-polish.trsl (polish translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `polish'. on input line 104.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 104.
+Package babel Info: 'polish' activates 'polish' shorthands.
+(babel)             Reported on input line 104.
+Package hyperref Info: Link coloring OFF on input line 104.
+ (praca.out) (praca.out)
+\@outlinefile=\write3
+\openout3 = `praca.out'.
+
+\c@lstlisting=\count346
+Package hyperref Info: Option `pageanchor' set `false' on input line 106.
+<figures/LogoURWydzial.png, id=236, 1927.2pt x 648.4225pt>
+File: figures/LogoURWydzial.png Graphic file (type png)
+<use figures/LogoURWydzial.png>
+Package pdftex.def Info: figures/LogoURWydzial.png  used on input line 107.
+(pdftex.def)             Requested size: 332.89673pt x 112.0014pt.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 10
+7.
+
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.28> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 107.
+
+[1
+
+
+{C:/Users/kamen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/kame
+n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./figures/LogoURW
+ydzial.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 107.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 107.
+ [1
+
+] [1
+
+]
+Package hyperref Info: Option `pageanchor' set `true' on input line 108.
+\openout2 = `chapters/abstract-pl.aux'.
+
+ (chapters/abstract-pl.tex) [5
+
+
+
+
+]
+\openout2 = `chapters/abstract-en.aux'.
+
+ (chapters/abstract-en.tex) [6
+
+
+
+
+
+] (praca.toc
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [7
+
+
+
+])
+\tf@toc=\write4
+\openout4 = `praca.toc'.
+
+Package babel Info: 'polish' activates 'polish' shorthands.
+(babel)             Reported on input line 129.
+
+[8]
+\openout2 = `chapters/01_wprowadzenie.aux'.
+
+ (chapters/01_wprowadzenie.tex
+Rozdzia\l  1.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+8.
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+[9
+
+
+
+]) [10]
+\openout2 = `chapters/02_wymagania.aux'.
+
+ (chapters/02_wymagania.tex
+Rozdzia\l  2.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 52
+.
+(C:\Users\kamen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+[11
+
+
+
+
+] [12]
+\openout2 = `chapters/03_architektura.aux'.
+
+ (chapters/03_architektura.tex
+Rozdzia\l  3.
+Package epstopdf Info: Source file: <figures/Architektura.eps>
+(epstopdf)                    date: 2026-06-12 11:53:40
+(epstopdf)                    size: 24977546 bytes
+(epstopdf)             Output file: <figures/Architektura-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2026-06-12 11:56:32
+(epstopdf)                    size: 170995 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/Architektura
+-eps-converted-to.pdf figures/Architektura.eps>
+(epstopdf)             \includegraphics on input line 9.
+Package epstopdf Info: Output file is already uptodate.
+<figures/Architektura-eps-converted-to.pdf, id=352, 6526.3825pt x 634.37pt>
+File: figures/Architektura-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/Architektura-eps-converted-to.pdf>
+Package pdftex.def Info: figures/Architektura-eps-converted-to.pdf  used on inp
+ut line 9.
+(pdftex.def)             Requested size: 405.45047pt x 39.40602pt.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 30.
+[13
+
+
+
+
+ <./figures/Architektura-eps-converted-to.pdf>]) [14] [15]
+\openout2 = `chapters/04_technologie.aux'.
+
+
+(chapters/04_technologie.tex
+Rozdzia\l  4.
+) [16
+
+
+
+
+]
+\openout2 = `chapters/05_baza_danych.aux'.
+
+ (chapters/05_baza_danych.tex
+Rozdzia\l  5.
+Package epstopdf Info: Source file: <figures/ERD.eps>
+(epstopdf)                    date: 2026-06-12 11:54:02
+(epstopdf)                    size: 5684032 bytes
+(epstopdf)             Output file: <figures/ERD-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-06-12 11:56:33
+(epstopdf)                    size: 121246 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/ERD-eps-conv
+erted-to.pdf figures/ERD.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+<figures/ERD-eps-converted-to.pdf, id=407, 1277.77374pt x 736.7525pt>
+File: figures/ERD-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/ERD-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ERD-eps-converted-to.pdf  used on input line 4
+1.
+(pdftex.def)             Requested size: 405.45047pt x 233.77579pt.
+[17
+
+
+
+
+ <./figures/ERD-eps-converted-to.pdf>] (src/HotelDbContextFragment.cs)
+Underfull \hbox (badness 3872) in paragraph at lines 70--71
+[]\T1/ptm/m/n/10 Usªugi ho-te-lowe znaj-duj¡ si¦ w osob-nej ta-beli \T1/pcr/m/n
+/10 Services\T1/ptm/m/n/10 . Re-zer-wa-cja mo»e mie¢ wiele
+ []
+
+[18]) [19]
+\openout2 = `chapters/06_implementacja.aux'.
+
+ (chapters/06_implementacja.tex
+Rozdzia\l  6.
+(src/DI_fragment.cs) (src/AddGuest.cs [20
+
+
+
+
+]) (src/GetReservations.cs)
+(src/SaveService.cs) [21] (src/NavigationPanel.xaml) (src/Validation.cs
+[22])) [23]
+\openout2 = `chapters/07_prezentacja.aux'.
+
+ (chapters/07_prezentacja.tex
+Rozdzia\l  7.
+Package epstopdf Info: Source file: <figures/01_ekran_glowny.eps>
+(epstopdf)                    date: 2026-06-12 11:52:19
+(epstopdf)                    size: 6063341 bytes
+(epstopdf)             Output file: <figures/01_ekran_glowny-eps-converted-to.p
+df>
+(epstopdf)                    date: 2026-06-12 11:57:45
+(epstopdf)                    size: 174761 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/01_ekran_glo
+wny-eps-converted-to.pdf figures/01_ekran_glowny.eps>
+(epstopdf)             \includegraphics on input line 6.
+Package epstopdf Info: Output file is already uptodate.
+<figures/01_ekran_glowny-eps-converted-to.pdf, id=569, 1250.6725pt x 803.0pt>
+File: figures/01_ekran_glowny-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/01_ekran_glowny-eps-converted-to.pdf>
+Package pdftex.def Info: figures/01_ekran_glowny-eps-converted-to.pdf  used on 
+input line 6.
+(pdftex.def)             Requested size: 392.64725pt x 252.10089pt.
+Package epstopdf Info: Source file: <figures/02_goscie.eps>
+(epstopdf)                    date: 2026-06-12 11:52:20
+(epstopdf)                    size: 6030313 bytes
+(epstopdf)             Output file: <figures/02_goscie-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-06-12 11:57:47
+(epstopdf)                    size: 147528 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/02_goscie-ep
+s-converted-to.pdf figures/02_goscie.eps>
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+<figures/02_goscie-eps-converted-to.pdf, id=570, 1251.67625pt x 797.98125pt>
+File: figures/02_goscie-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/02_goscie-eps-converted-to.pdf>
+Package pdftex.def Info: figures/02_goscie-eps-converted-to.pdf  used on input 
+line 8.
+(pdftex.def)             Requested size: 392.64725pt x 250.31827pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24
+
+
+
+
+ <./figures/01_ekran_glowny-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/03_pokoje.eps>
+(epstopdf)                    date: 2026-06-12 11:52:22
+(epstopdf)                    size: 6000700 bytes
+(epstopdf)             Output file: <figures/03_pokoje-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-06-12 11:57:48
+(epstopdf)                    size: 50426 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/03_pokoje-ep
+s-converted-to.pdf figures/03_pokoje.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+<figures/03_pokoje-eps-converted-to.pdf, id=579, 1248.665pt x 795.97375pt>
+File: figures/03_pokoje-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/03_pokoje-eps-converted-to.pdf>
+Package pdftex.def Info: figures/03_pokoje-eps-converted-to.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 392.64725pt x 250.29582pt.
+Package epstopdf Info: Source file: <figures/04_rezerwacje.eps>
+(epstopdf)                    date: 2026-06-12 11:53:00
+(epstopdf)                    size: 6068203 bytes
+(epstopdf)             Output file: <figures/04_rezerwacje-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2026-06-12 11:57:50
+(epstopdf)                    size: 147986 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/04_rezerwacj
+e-eps-converted-to.pdf figures/04_rezerwacje.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+<figures/04_rezerwacje-eps-converted-to.pdf, id=580, 1251.67625pt x 803.0pt>
+File: figures/04_rezerwacje-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/04_rezerwacje-eps-converted-to.pdf>
+Package pdftex.def Info: figures/04_rezerwacje-eps-converted-to.pdf  used on in
+put line 12.
+(pdftex.def)             Requested size: 392.64725pt x 251.8926pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./figures/02_goscie-eps-converted-to.pdf> <./figures/03_pokoje-eps-conver
+ted-to.pdf>]
+Package epstopdf Info: Source file: <figures/05_platnosci.eps>
+(epstopdf)                    date: 2026-06-12 11:53:00
+(epstopdf)                    size: 5995881 bytes
+(epstopdf)             Output file: <figures/05_platnosci-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2026-06-12 11:57:51
+(epstopdf)                    size: 124161 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/05_platnosci
+-eps-converted-to.pdf figures/05_platnosci.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+<figures/05_platnosci-eps-converted-to.pdf, id=593, 1247.66125pt x 795.97375pt>
+
+File: figures/05_platnosci-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/05_platnosci-eps-converted-to.pdf>
+Package pdftex.def Info: figures/05_platnosci-eps-converted-to.pdf  used on inp
+ut line 14.
+(pdftex.def)             Requested size: 392.64725pt x 250.49014pt.
+Package epstopdf Info: Source file: <figures/06_pracownicy.eps>
+(epstopdf)                    date: 2026-06-12 11:53:01
+(epstopdf)                    size: 6010989 bytes
+(epstopdf)             Output file: <figures/06_pracownicy-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2026-06-12 11:57:53
+(epstopdf)                    size: 142686 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/06_pracownic
+y-eps-converted-to.pdf figures/06_pracownicy.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+<figures/06_pracownicy-eps-converted-to.pdf, id=594, 1247.66125pt x 797.98125pt
+>
+File: figures/06_pracownicy-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/06_pracownicy-eps-converted-to.pdf>
+Package pdftex.def Info: figures/06_pracownicy-eps-converted-to.pdf  used on in
+put line 16.
+(pdftex.def)             Requested size: 392.64725pt x 251.12189pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <./figures/04_rezerwacje-eps-converted-to.pdf> <./figures/05_platnosci-eps
+-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/07_uslugi.eps>
+(epstopdf)                    date: 2026-06-12 11:53:40
+(epstopdf)                    size: 6085516 bytes
+(epstopdf)             Output file: <figures/07_uslugi-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-06-12 11:57:54
+(epstopdf)                    size: 162747 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/07_uslugi-ep
+s-converted-to.pdf figures/07_uslugi.eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
+<figures/07_uslugi-eps-converted-to.pdf, id=608, 1253.68375pt x 804.00375pt>
+File: figures/07_uslugi-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/07_uslugi-eps-converted-to.pdf>
+Package pdftex.def Info: figures/07_uslugi-eps-converted-to.pdf  used on input 
+line 18.
+(pdftex.def)             Requested size: 392.64725pt x 251.80261pt.
+ [27 <./figures/06_pracownicy-eps-converted-to.pdf> <./figures/07_uslugi-eps-co
+nverted-to.pdf>]) [28]
+\openout2 = `chapters/08_harmonogram.aux'.
+
+ (chapters/08_harmonogram.tex
+Rozdzia\l  8.
+Package epstopdf Info: Source file: <figures/gantt.eps>
+(epstopdf)                    date: 2026-06-12 11:53:40
+(epstopdf)                    size: 56906871 bytes
+(epstopdf)             Output file: <figures/gantt-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/gantt-eps-co
+nverted-to.pdf figures/gantt.eps>
+(epstopdf)             \includegraphics on input line 7.
+runsystem(miktex-epstopdf --outfile=figures/gantt-eps-converted-to.pdf figures/
+gantt.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/gantt-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-06-12 11:59:02
+(epstopdf)                    size: 179067 bytes.
+<figures/gantt-eps-converted-to.pdf, id=625, 8222.72pt x 1147.28625pt>
+File: figures/gantt-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/gantt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/gantt-eps-converted-to.pdf  used on input line
+ 7.
+(pdftex.def)             Requested size: 405.45047pt x 56.56238pt.
+) [29
+
+
+
+
+ <./figures/gantt-eps-converted-to.pdf>]
+\openout2 = `chapters/09_instrukcja.aux'.
+
+ (chapters/09_instrukcja.tex
+Rozdzia\l  9.
+
+Underfull \hbox (badness 1783) in paragraph at lines 9--10
+[]\T1/ptm/m/n/10 Najpierw na-le»y za-in-sta-lo-wa¢ Vi-sual Stu-dio 2022. Pod-cz
+as in-sta-la-cji trzeba za-zna-czy¢ skªad-
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 9--10
+\T1/ptm/m/n/10 nik \T1/pcr/m/n/10 .NET desktop development\T1/ptm/m/n/10 . Na-s
+t¦p-nie na-le»y roz-pa-ko-wa¢ pro-jekt i otwo-rzy¢ plik
+ []
+
+[30
+
+
+
+
+]) [31]
+\openout2 = `chapters/10_podsumowanie.aux'.
+
+ (chapters/10_podsumowanie.tex
+Rozdzia\l  10.
+) [32
+
+
+
+
+] (praca.lof)
+\tf@lof=\write5
+\openout5 = `praca.lof'.
+
+ [33
+
+
+
+] (praca.lot)
+\tf@lot=\write6
+\openout6 = `praca.lot'.
+
+ [34
+
+] (praca.lol)
+\tf@lol=\write7
+\openout7 = `praca.lol'.
+
+ [35
+
+
+] (praca.aux
+(chapters/abstract-pl.aux) (chapters/abstract-en.aux)
+(chapters/01_wprowadzenie.aux) (chapters/02_wymagania.aux)
+(chapters/03_architektura.aux) (chapters/04_technologie.aux)
+(chapters/05_baza_danych.aux) (chapters/06_implementacja.aux)
+(chapters/07_prezentacja.aux) (chapters/08_harmonogram.aux)
+(chapters/09_instrukcja.aux) (chapters/10_podsumowanie.aux)
+! Extra }, or forgotten \endgroup.
+l.28 @file@percent }
+                    
+? 
+)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `praca.out' has not changed.
+(rerunfilecheck)             Checksum: 89AD06DA9365B753B3BB5292082AE0B7;11995.
+ ) 
+Here is how much of TeX's memory you used:
+ 21119 strings out of 467509
+ 419200 string characters out of 5408780
+ 1278592 words of memory out of 5000000
+ 49745 multiletter control sequences out of 15000+600000
+ 689249 words of font info for 87 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 88i,13n,98p,504b,2745s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/kamen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.
+pfb><C:/Users/kamen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8
+a.pfb><C:/Users/kamen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uh
+vb8a.pfb><C:/Users/kamen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic
+/uhvr8a.pfb><C:/Users/kamen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helve
+tic/uhvro8a.pfb><C:/Users/kamen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmb8a.pfb><C:/Users/kamen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmr8a.pfb><C:/Users/kamen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmr8a.pfb><C:/Users/kamen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on praca.pdf (34 pages, 1683872 bytes).
+PDF statistics:
+ 798 PDF objects out of 1000 (max. 8388607)
+ 276 named destinations out of 1000 (max. 500000)
+ 528 words of extra memory for PDF output out of 10000 (max. 10000000)
+

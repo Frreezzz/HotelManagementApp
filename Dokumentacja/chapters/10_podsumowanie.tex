@@ -1,0 +1,21 @@
+\chapter{Podsumowanie}
+
+\section{Ocena stopnia realizacji założeń projektowych}
+
+Projekt zrealizował główne założenia dla tematu \textit{System zarządzania hotelem}. Aplikacja pozwala na podstawowe zarządzanie gośćmi, pokojami, rezerwacjami, płatnościami, pracownikami i usługami dodatkowymi. Został wykonany interfejs graficzny, lokalna baza danych SQLite, migracje Entity Framework Core oraz prosta walidacja danych.
+
+Program nie jest pełnym systemem hotelowym klasy komercyjnej, ale nie taki był główny zakres projektu. Dla podstawowego systemu zarządzania wykonano najważniejsze funkcje administracyjne, które pozwalają kontrolować dane recepcji hotelowej.
+
+\section{Napotkane problemy}
+
+Podczas realizacji projektu mogły pojawić się typowe problemy związane z połączeniem aplikacji WPF z bazą danych. Jednym z problemów była poprawna konfiguracja Entity Framework Core i SQLite, aby baza tworzyła się automatycznie przy uruchomieniu programu.
+
+Drugim problemem było sprawdzanie dostępności pokoi. Trzeba było uwzględnić sytuację, w której dwie rezerwacje nakładają się na siebie czasowo. W tym celu w serwisie sprawdzany jest konflikt dat dla wybranego pokoju.
+
+Kolejnym problemem było ustawienie interfejsu tak, aby panel główny nie wyglądał zbyt pusto. Dlatego dodano karty statystyk, opis modułów oraz poprawiono wygląd zakładki usług.
+
+\section{Możliwe kierunki dalszego rozwoju aplikacji}
+
+Projekt można rozbudować do pełniejszego systemu dla hotelu. Można dodać logowanie i role użytkowników, na przykład administratora, recepcjonisty i menedżera. Można też dodać faktury, raporty miesięczne, eksport do pliku PDF, historię zmian oraz pełne zarządzanie pokojami.
+
+W przyszłości można również dodać moduł rezerwacji online albo integrację z zewnętrznymi portalami. Obecna wersja jest jednak podstawowym systemem zarządzania i realizuje zakres przyjęty w projekcie.

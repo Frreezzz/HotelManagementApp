@@ -1,0 +1,55 @@
+\chapter{Implementacja aplikacji}
+
+\section{Najważniejsze moduły systemu}
+
+Najważniejsze moduły systemu odpowiadają głównym częściom hotelu. Moduł gości służy do dodawania i przeglądania danych klientów. Moduł pokoi pokazuje numery pokoi, typy oraz statusy. Moduł rezerwacji pozwala wybrać gościa, pokój, pracownika i termin pobytu. Moduł płatności zapisuje wpłaty do rezerwacji. Moduł usług pozwala dodawać i edytować usługi dodatkowe.
+
+\section{Logika działania aplikacji}
+
+Po uruchomieniu aplikacja konfiguruje kontener Dependency Injection, tworzy połączenie z bazą SQLite i wykonuje migracje. Następnie dodawane są dane startowe, jeżeli baza jest pusta. Główne okno otrzymuje obiekt \texttt{MainViewModel}, który udostępnia kolekcje danych i komendy dla interfejsu.
+
+\lstinputlisting[caption={Konfiguracja Dependency Injection i bazy SQLite},label={lst:di}]{src/DI_fragment.cs}
+
+\section{Realizacja operacji CRUD}
+
+Operacje CRUD zostały wykonane dla najważniejszych elementów systemu. Użytkownik może tworzyć nowe rekordy, wyświetlać je w tabelach oraz edytować wybrane usługi hotelowe. Część danych, na przykład pokoje i pracownicy, jest przygotowana jako dane startowe, aby aplikację można było od razu zaprezentować.
+
+Poniżej pokazano skrócony przykład dodawania gościa. Nie jest to cały kod, tylko najważniejszy fragment odpowiedzialny za utworzenie obiektu i zapisanie go do bazy.
+
+\lstinputlisting[caption={Przykład dodawania gościa w ViewModelu},label={lst:addguest}]{src/AddGuest.cs}
+
+Przy pobieraniu bardziej złożonych danych użyto metody \texttt{Include()}, aby pobrać również dane powiązane, na przykład gościa i pokój dla rezerwacji.
+
+\lstinputlisting[caption={Przykład pobierania rezerwacji z danymi powiązanymi},label={lst:getreservations}]{src/GetReservations.cs}
+
+\section{Dodawanie i edycja usług hotelowych}
+
+W poprawionej wersji projektu moduł usług umożliwia nie tylko przeglądanie, ale także dodawanie i edytowanie usług. Użytkownik może wybrać usługę z tabeli, zmienić jej nazwę lub cenę i zapisać zmiany. Jeżeli żadna usługa nie jest wybrana, formularz dodaje nowy rekord.
+
+\lstinputlisting[caption={Fragment zapisu nowej lub edytowanej usługi},label={lst:saveservice}]{src/SaveService.cs}
+
+\section{Mechanizmy logowania i autoryzacji}
+
+W obecnej wersji projektu nie dodano logowania i autoryzacji. Aplikacja jest lokalnym programem desktopowym i zakłada się, że korzysta z niej pracownik recepcji hotelowej.
+
+Gdyby projekt był rozwijany dalej, można byłoby dodać role użytkowników, na przykład administratora, recepcjonisty i menedżera. Administrator miałby pełny dostęp, a recepcjonista mógłby obsługiwać głównie rezerwacje i płatności.
+
+\section{Organizacja nawigacji}
+
+Nawigacja została zorganizowana przez zakładki w głównym oknie aplikacji. Użytkownik może przejść do panelu głównego, gości, pokoi, rezerwacji, płatności, pracowników i usług. Takie rozwiązanie jest proste i czytelne, ponieważ wszystkie moduły są dostępne z jednego miejsca.
+
+\lstinputlisting[caption={Fragment nawigacji w XAML},label={lst:nawigacja}]{src/NavigationPanel.xaml}
+
+\section{Interfejs użytkownika}
+
+Interfejs użytkownika składa się z górnego nagłówka, głównego obszaru z zakładkami i dolnego paska komunikatów. Panel główny zawiera karty statystyk i krótkie informacje o modułach. Pozostałe widoki mają podobny układ: tabela danych oraz formularz do wprowadzania danych.
+
+\section{Stylizacja i responsywność aplikacji}
+
+Aplikacja została wystylizowana w kolorach granatowym, niebieskim i jasnoszarym. Zastosowano karty z zaokrąglonymi rogami, czytelne nagłówki, wyróżnione przyciski i naprzemienne tło w tabelach. Program jest aplikacją desktopową, dlatego nie jest responsywny tak jak strona internetowa, ale ma ustawione minimalne wymiary okna i układ dopasowany do typowego monitora.
+
+\section{Walidacja danych w kodzie}
+
+Poniżej pokazano skrócony fragment walidacji. Program sprawdza wymagane pola gościa, poprawność dat rezerwacji oraz poprawność danych usługi.
+
+\lstinputlisting[caption={Skrócony fragment walidacji danych w HotelService},label={lst:walidacja}]{src/Validation.cs}

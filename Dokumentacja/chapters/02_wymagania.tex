@@ -1,0 +1,54 @@
+\chapter{Wymagania systemowe}
+
+\section{Wymagania funkcjonalne aplikacji}
+
+Aplikacja powinna umożliwiać podstawową obsługę danych hotelowych. System nie jest pełnym programem komercyjnym, tylko prostą aplikacją do zarządzania najważniejszymi elementami hotelu.
+
+\begin{table}[H]
+\centering
+\caption{Najważniejsze wymagania funkcjonalne aplikacji}
+\begin{tabular}{|p{3cm}|p{10cm}|}
+\hline
+\textbf{Moduł} & \textbf{Wymaganie} \\
+\hline
+Goście & Dodawanie nowych gości oraz wyświetlanie ich w tabeli. \\
+\hline
+Pokoje & Przeglądanie pokoi, numerów, statusów oraz typów pokoi. \\
+\hline
+Rezerwacje & Tworzenie rezerwacji dla wybranego gościa i pokoju. \\
+\hline
+Dostępność & Sprawdzanie, które pokoje są dostępne w wybranym terminie. \\
+\hline
+Płatności & Dodawanie płatności do wybranej rezerwacji. \\
+\hline
+Usługi & Dodawanie i edytowanie usług dodatkowych. \\
+\hline
+Panel główny & Wyświetlanie statystyk, liczby gości, rezerwacji i płatności. \\
+\hline
+\end{tabular}
+\end{table}
+
+Do wymagań funkcjonalnych należą także walidacja podstawowych pól, odświeżanie danych po wykonaniu operacji oraz pokazywanie komunikatów o błędach w dolnej części okna.
+
+\section{Wymagania niefunkcjonalne}
+
+Aplikacja powinna działać lokalnie na komputerze z systemem Windows. Interfejs powinien być czytelny i spójny, aby użytkownik mógł łatwo przechodzić między modułami. Kod powinien być podzielony na warstwy i pliki według odpowiedzialności.
+
+Do wymagań niefunkcjonalnych należą:
+
+\begin{itemize}
+  \item lokalne działanie programu na komputerze z systemem Windows,
+  \item zapis danych w lokalnej bazie SQLite,
+  \item czytelny układ głównego okna,
+  \item podział projektu na modele, kontekst bazy, repozytoria, serwisy i ViewModel,
+  \item podstawowa obsługa wyjątków,
+  \item walidacja danych wpisywanych w formularzach,
+  \item użycie Entity Framework Core do dostępu do danych,
+  \item możliwość łatwego uruchomienia projektu w Visual Studio 2022.
+\end{itemize}
+
+\section{Założenia dotyczące działania systemu}
+
+Założono, że program działa lokalnie i korzysta z jednej bazy danych zapisanej w pliku \texttt{hotel.db}. Użytkownik nie musi zakładać konta i nie musi się logować. Dane testowe są dodawane automatycznie przy pierwszym uruchomieniu aplikacji.
+
+System służy do podstawowego zarządzania hotelem. Nie zawiera modułu logowania, faktur, rezerwacji online ani integracji z zewnętrznymi serwisami. Program można jednak rozbudować w przyszłości o takie elementy.

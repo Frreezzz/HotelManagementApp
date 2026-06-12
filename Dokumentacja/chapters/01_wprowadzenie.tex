@@ -1,0 +1,37 @@
+\chapter{Wprowadzenie i analiza problemu}
+
+\section{Opis analizowanego problemu}
+
+Hotel przechowuje wiele informacji, które są ze sobą powiązane. Pracownik recepcji musi znać dane gości, dostępność pokoi, terminy rezerwacji, płatności oraz usługi dodatkowe. Jeżeli takie informacje są prowadzone tylko w notatkach albo arkuszu kalkulacyjnym, łatwo o pomyłkę, na przykład podwójną rezerwację tego samego pokoju w tym samym terminie.
+
+Analizowany problem dotyczy podstawowego zarządzania hotelem w aplikacji desktopowej. Projekt nie jest pełnym systemem hotelowym klasy komercyjnej. Nie zawiera modułu płatności online, integracji z portalami rezerwacyjnymi ani logowania wielu użytkowników. Zakres został dobrany tak, aby program był możliwy do wykonania jako projekt studencki, ale jednocześnie miał rozbudowaną bazę danych i kilka powiązanych modułów.
+
+\section{Cel projektu}
+
+Celem projektu było przygotowanie aplikacji desktopowej w języku C\#, która umożliwia podstawową obsługę hotelu. System ma pozwalać na przeglądanie danych hotelowych, dodawanie gości, tworzenie rezerwacji, sprawdzanie dostępności pokoi, rejestrowanie płatności oraz zarządzanie usługami dodatkowymi.
+
+\section{Zakres realizowanych funkcjonalności}
+
+W projekcie zrealizowano podstawowy zakres funkcjonalności potrzebny do pracy recepcji hotelowej. Użytkownik może:
+
+\begin{itemize}
+  \item przeglądać dane w tabelach,
+  \item dodawać nowych gości hotelowych,
+  \item przeglądać pokoje oraz typy pokoi,
+  \item tworzyć rezerwacje dla wybranego gościa i pokoju,
+  \item sprawdzać dostępność pokoi w podanym terminie,
+  \item rejestrować płatności dla wybranej rezerwacji,
+  \item przeglądać listę pracowników,
+  \item dodawać nowe usługi hotelowe,
+  \item edytować istniejące usługi hotelowe,
+  \item sprawdzać szybkie statystyki na panelu głównym,
+  \item poruszać się po aplikacji za pomocą zakładek.
+\end{itemize}
+
+\section{Przegląd podobnych rozwiązań}
+
+Pierwszym podobnym rozwiązaniem jest Booking.com. Jest to duża platforma internetowa do wyszukiwania i rezerwowania noclegów. W porównaniu z takim rozwiązaniem mój projekt nie obsługuje klientów przez Internet, tylko skupia się na lokalnej pracy recepcji.
+
+Drugim przykładem jest system KWHotel. Jest to program przeznaczony do zarządzania obiektami noclegowymi, rezerwacjami i pokojami. Mój projekt realizuje podobny ogólny pomysł, ale w prostszym zakresie i bez funkcji biznesowych, takich jak faktury czy synchronizacja z portalami.
+
+Trzecim przykładem jest Cloudbeds albo inny system PMS dla hoteli. Takie systemy są rozbudowane i często działają w chmurze. Mój projekt został wykonany jako lokalna aplikacja desktopowa, dlatego jest prostszy, ale zawiera najważniejsze elementy: pokoje, rezerwacje, gości, płatności i usługi.

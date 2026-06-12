@@ -1,0 +1,53 @@
+\chapter{Instrukcja uruchomienia projektu}
+
+\section{Wymagania systemowe}
+
+Do uruchomienia projektu potrzebny jest komputer z systemem Windows. Projekt najlepiej uruchomić w Visual Studio 2022. W systemie powinien być zainstalowany .NET SDK oraz składnik \texttt{.NET desktop development}. Nie trzeba instalować osobnego serwera bazy danych, ponieważ projekt korzysta z SQLite.
+
+\section{Sposób konfiguracji środowiska}
+
+Najpierw należy zainstalować Visual Studio 2022. Podczas instalacji trzeba zaznaczyć składnik \texttt{.NET desktop development}. Następnie należy rozpakować projekt i otworzyć plik \texttt{HotelManagementApp.csproj} albo całe rozwiązanie, jeżeli zostało dodane.
+
+Po otwarciu projektu Visual Studio powinno automatycznie przywrócić pakiety NuGet. Jeżeli tego nie zrobi, należy otworzyć terminal w folderze projektu i wpisać:
+
+\begin{lstlisting}[style=textStyle,caption={Przywrócenie pakietów NuGet},label={lst:restore}]
+dotnet restore
+\end{lstlisting}
+
+\section{Instrukcja uruchomienia aplikacji}
+
+Aby uruchomić projekt od zera, należy wykonać następujące kroki:
+
+\begin{enumerate}
+  \item Rozpakować archiwum z projektem.
+  \item Otworzyć folder \texttt{HotelManagementApp}.
+  \item Uruchomić plik \texttt{HotelManagementApp.csproj} w Visual Studio.
+  \item Poczekać, aż zostaną przywrócone pakiety NuGet.
+  \item Wybrać projekt \texttt{HotelManagementApp} jako projekt startowy.
+  \item Nacisnąć \texttt{F5} albo przycisk \texttt{Start}.
+  \item Po uruchomieniu aplikacji można korzystać z zakładek w głównym oknie.
+\end{enumerate}
+
+Jeżeli pojawi się problem z pakietami, należy wykonać polecenie \texttt{dotnet restore}. Jeżeli pojawi się problem z bazą danych, można usunąć plik \texttt{hotel.db} i uruchomić projekt ponownie.
+
+\section{Informacje dotyczące bazy danych}
+
+Aplikacja korzysta z SQLite. Nazwa pliku bazy danych to \texttt{hotel.db}. Baza jest tworzona i aktualizowana automatycznie przy uruchomieniu programu przez metodę \texttt{Database.Migrate()}.
+
+Połączenie z bazą znajduje się w pliku \texttt{App.xaml.cs}. W projekcie użyto connection stringa:
+
+\begin{lstlisting}[style=textStyle,caption={Connection string SQLite},label={lst:connectionstring}]
+Data Source=hotel.db
+\end{lstlisting}
+
+\section{Dane logowania testowego}
+
+W obecnej wersji aplikacja nie posiada logowania, dlatego nie ma danych logowania testowego. Program uruchamia się od razu po włączeniu i użytkownik ma dostęp do wszystkich modułów.
+
+\section{Miejsce na repozytorium GitHub}
+
+W tym miejscu należy wkleić link do repozytorium GitHub z projektem:
+
+\begin{lstlisting}[style=textStyle,caption={Miejsce na link do repozytorium GitHub},label={lst:github}]
+https://github.com/Frreezzz/HotelManagementApp/tree/main
+\end{lstlisting}

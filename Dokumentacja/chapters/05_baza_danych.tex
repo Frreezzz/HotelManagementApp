@@ -1,0 +1,87 @@
+\chapter{Projekt bazy danych}
+
+\section{Opis modelu danych}
+
+Baza danych została zaprojektowana odpowiednio do potrzeb aplikacji hotelowej. Model danych zawiera encje odpowiadające najważniejszym elementom pracy hotelu: gościom, pokojom, typom pokoi, rezerwacjom, płatnościom, pracownikom i usługom dodatkowym.
+
+\begin{table}[H]
+\centering
+\caption{Główne tabele w bazie danych}
+\begin{tabular}{|p{4cm}|p{9cm}|}
+\hline
+\textbf{Tabela} & \textbf{Opis} \\
+\hline
+\texttt{Guests} & Dane gości hotelowych. \\
+\hline
+\texttt{Rooms} & Pokoje hotelowe, numery i statusy. \\
+\hline
+\texttt{RoomTypes} & Typy pokoi i cena za noc. \\
+\hline
+\texttt{Reservations} & Rezerwacje z datą zameldowania i wymeldowania. \\
+\hline
+\texttt{Payments} & Płatności przypisane do rezerwacji. \\
+\hline
+\texttt{Employees} & Pracownicy obsługujący rezerwacje. \\
+\hline
+\texttt{Services} & Usługi dodatkowe, na przykład parking albo śniadanie. \\
+\hline
+\texttt{ReservationServices} & Tabela łącząca rezerwacje z usługami. \\
+\hline
+\end{tabular}
+\end{table}
+
+Taki model pozwala przechowywać dane w uporządkowany sposób i unikać powtarzania tych samych informacji w wielu miejscach.
+
+\section{Diagram ERD}
+
+Poniżej znajduje się uproszczony diagram ERD. Pokazuje on najważniejsze tabele oraz relacje między nimi.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/ERD.eps}
+\caption{Diagram ERD bazy danych aplikacji HotelManagementApp}
+\end{figure}
+
+\section{Opis relacji i kluczy}
+
+Każda tabela posiada klucz główny w postaci pola \texttt{Id}. W projekcie zastosowano relacje jeden do wielu oraz jedną relację wiele do wielu z tabelą pośrednią.
+
+Relacje w uproszczonej formie wyglądają tak:
+
+\begin{lstlisting}[style=textStyle,caption={Relacje w bazie danych},label={lst:relacje}]
+RoomType 1 -> wiele Rooms
+Guest 1 -> wiele Reservations
+Room 1 -> wiele Reservations
+Employee 1 -> wiele Reservations
+Reservation 1 -> wiele Payments
+Reservation wiele -> wiele Services przez ReservationServices
+\end{lstlisting}
+
+Klucze obce zostały zapisane w klasach modeli, na przykład \texttt{RoomTypeId} w klasie \texttt{Room}, \texttt{GuestId} i \texttt{RoomId} w klasie \texttt{Reservation} oraz \texttt{ReservationId} w klasie \texttt{Payment}.
+
+Fragment konfiguracji relacji w \texttt{HotelDbContext} pokazano w listingu poniżej.
+
+\lstinputlisting[caption={Fragment konfiguracji relacji w HotelDbContext},label={lst:dbcontextfragment}]{src/HotelDbContextFragment.cs}
+
+\section{Informacje dotyczące normalizacji}
+
+Dane zostały rozdzielone na osobne tabele. Dane gościa są zapisane w tabeli \texttt{Guests}, dane pokoju w tabeli \texttt{Rooms}, a typ pokoju w tabeli \texttt{RoomTypes}. Dzięki temu cena za noc nie musi być powtarzana przy każdym pokoju, tylko znajduje się w typie pokoju.
+
+Usługi hotelowe znajdują się w osobnej tabeli \texttt{Services}. Rezerwacja może mieć wiele usług, a jedna usługa może być używana w wielu rezerwacjach. Dlatego dodano tabelę pośrednią \texttt{ReservationServices}. Jest to poprawny sposób zapisania relacji wiele do wielu.
+
+\section{Opis migracji bazy danych}
+
+W projekcie użyto migracji Entity Framework Core. W folderze \texttt{Migrations} znajduje się migracja \texttt{InitialCreate}, która tworzy strukturę bazy danych. Przy uruchomieniu aplikacji wykonywana jest metoda \texttt{Database.Migrate()}, dzięki czemu baza danych jest tworzona lub aktualizowana automatycznie.
+
+W przypadku ręcznego uruchamiania migracji można użyć poleceń:
+
+\begin{lstlisting}[style=textStyle,caption={Polecenia migracji EF Core},label={lst:migracje}]
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+\end{lstlisting}
+
+\section{Mechanizmy zapewniające integralność danych}
+
+Integralność danych jest zapewniona przez klucze główne, klucze obce i ograniczenia relacji. W konfiguracji zastosowano także unikalne indeksy, na przykład dla adresu e-mail gościa i numeru pokoju.
+
+Dla części relacji ustawiono zachowanie \texttt{DeleteBehavior.Restrict}, aby nie usuwać przypadkowo danych powiązanych z rezerwacjami. Płatności są powiązane z rezerwacją i mogą być usunięte razem z nią, dlatego tam zastosowano kaskadowe usuwanie.

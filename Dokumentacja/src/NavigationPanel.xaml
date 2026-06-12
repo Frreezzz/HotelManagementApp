@@ -1,0 +1,11 @@
+<TabControl Margin="14">
+    <TabItem Header="Panel główny">
+        <!-- karty statystyk i opis modułów -->
+    </TabItem>
+    <TabItem Header="Goście" />
+    <TabItem Header="Pokoje" />
+    <TabItem Header="Rezerwacje" />
+    <TabItem Header="Płatności" />
+    <TabItem Header="Pracownicy" />
+    <TabItem Header="Usługi" />
+</TabControl>

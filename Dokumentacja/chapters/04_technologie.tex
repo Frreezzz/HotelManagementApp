@@ -1,0 +1,31 @@
+\chapter{Technologie wykorzystane w projekcie}
+
+\section{Technologie interfejsu użytkownika}
+
+Do wykonania interfejsu użytkownika wykorzystano WPF. Technologia ta została wybrana, ponieważ dobrze nadaje się do tworzenia aplikacji desktopowych w C\# i pozwala budować czytelne okna z tabelami, formularzami oraz zakładkami.
+
+W projekcie WPF zostało użyte do przygotowania głównego okna aplikacji, panelu statystyk, formularzy, przycisków, tabel \texttt{DataGrid}, zakładek \texttt{TabControl} oraz prostego stylu wizualnego. Interfejs został przygotowany w spokojnych kolorach niebieskich i jasnych, aby przypominał panel administracyjny recepcji.
+
+\section{Technologie dostępu do danych}
+
+Do obsługi danych wykorzystano Entity Framework Core. W projekcie służy on do łączenia klas C\# z tabelami w bazie danych. Dane można dodawać i pobierać za pomocą obiektów, bez ręcznego pisania wielu zapytań SQL.
+
+Jako baza danych została użyta SQLite. Plik bazy danych ma nazwę \texttt{hotel.db}. Jest to dobre rozwiązanie dla projektu studenckiego, ponieważ nie wymaga instalacji osobnego serwera bazy danych i łatwo przenieść projekt na inny komputer.
+
+\section{Dodatkowe biblioteki i narzędzia}
+
+W projekcie użyto pakietów Entity Framework Core potrzebnych do pracy z SQLite i migracjami. Najważniejsze pakiety to:
+
+\begin{itemize}
+  \item \texttt{Microsoft.EntityFrameworkCore},
+  \item \texttt{Microsoft.EntityFrameworkCore.Sqlite},
+  \item \texttt{Microsoft.EntityFrameworkCore.Tools},
+  \item \texttt{Microsoft.EntityFrameworkCore.Design},
+  \item \texttt{Microsoft.Extensions.DependencyInjection}.
+\end{itemize}
+
+\section{Uzasadnienie wyboru technologii}
+
+WPF został wybrany, ponieważ pozwala uzyskać więcej punktów za warstwę interfejsu niż Windows Forms i umożliwia wygodne tworzenie okien desktopowych. Entity Framework Core został wybrany, ponieważ jest wyżej punktowany niż ręczne ADO.NET i upraszcza pracę z bazą danych. SQLite został wybrany, ponieważ projekt można uruchomić lokalnie bez dodatkowej konfiguracji serwera.
+
+Zastosowanie MVVM, Dependency Injection, repozytoriów i serwisów zwiększa czytelność projektu oraz ułatwia omówienie architektury podczas obrony.

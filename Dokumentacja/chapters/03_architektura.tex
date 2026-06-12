@@ -1,0 +1,87 @@
+\chapter{Architektura i struktura aplikacji}
+
+\section{Architektura aplikacji}
+
+Aplikacja została przygotowana jako program desktopowy WPF. Projekt wykorzystuje prostą architekturę warstwową z elementami wzorca MVVM. Interfejs użytkownika znajduje się w pliku XAML, logika prezentacji w klasie \texttt{MainViewModel}, a operacje biznesowe w serwisie \texttt{HotelService}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/Architektura.eps}
+\caption{Uproszczona architektura aplikacji HotelManagementApp}
+\end{figure}
+
+\section{Podział projektu na warstwy i moduły}
+
+Projekt można podzielić na kilka części:
+
+\begin{itemize}
+  \item warstwa modeli, czyli klasy opisujące dane w systemie,
+  \item warstwa danych, czyli klasa \texttt{HotelDbContext} oraz migracje,
+  \item warstwa repozytoriów, czyli klasy \texttt{IRepository} i \texttt{Repository},
+  \item warstwa usług, czyli \texttt{IHotelService} i \texttt{HotelService},
+  \item warstwa ViewModel, czyli \texttt{MainViewModel},
+  \item warstwa interfejsu, czyli \texttt{MainWindow.xaml} oraz \texttt{MainWindow.xaml.cs}.
+\end{itemize}
+
+\section{Struktura folderów oraz organizacja kodu}
+
+Struktura projektu została podzielona według odpowiedzialności plików.
+
+\begin{lstlisting}[style=textStyle,caption={Uproszczona struktura folderów projektu},label={lst:struktura}]
+HotelManagementApp
+|-- Commands
+|   |-- RelayCommand.cs
+|-- Data
+|   |-- HotelDbContext.cs
+|   |-- DbSeeder.cs
+|-- Migrations
+|   |-- 20260608000000_InitialCreate.cs
+|   |--HotelDbContextModelSnapshot.cs
+|-- Models
+|   |-- Guest.cs
+|   |-- Room.cs
+|   |-- RoomType.cs
+|   |-- Reservation.cs
+|   |-- Payment.cs
+|   |-- Employee.cs
+|   |-- Service.cs
+|   |-- ReservationService.cs
+|-- Repositories
+|   |-- IRepository.cs
+|   |-- Repository.cs
+|-- Services
+|   |-- IHotelService.cs
+|   |-- HotelService.cs
+|-- ViewModels
+|   |-- MainViewModel.cs
+|   |-- ObservableObject.cs
+|-- App.xaml.cs
+|-- App.xaml
+|-- MainWindow.xaml
+|-- MainWindow.xaml.cs
+|-- HotelManagementApp.csproj
+\end{lstlisting}
+
+Folder \texttt{Models} zawiera klasy mapowane na tabele w bazie danych. Folder \texttt{Data} zawiera konfigurację bazy danych i dane startowe. Folder \texttt{Services} zawiera logikę aplikacji, a folder \texttt{ViewModels} zawiera dane i komendy używane przez interfejs WPF.
+
+\section{Zastosowane wzorce projektowe}
+
+W projekcie zastosowano kilka prostych wzorców i mechanizmów organizacji kodu. Najważniejszym z nich jest MVVM, ponieważ widok korzysta z danych i komend udostępnionych przez \texttt{MainViewModel}. Zastosowano również Dependency Injection w pliku \texttt{App.xaml.cs}, dzięki czemu klasy nie tworzą ręcznie swoich zależności.
+
+Dostęp do danych został częściowo oddzielony za pomocą wzorca Repository. Logika biznesowa znajduje się w serwisie \texttt{HotelService}. Dzięki temu kod odpowiedzialny za interfejs nie musi bezpośrednio wykonywać wszystkich operacji na bazie danych.
+
+\section{Mechanizmy walidacji danych}
+
+Walidacja danych została wykonana w serwisie. Program sprawdza między innymi, czy imię, nazwisko, numer telefonu i adres e-mail gościa nie są puste oraz czy adres e-mail zawiera znak \texttt{@}. Przy rezerwacji sprawdzane jest, czy data wymeldowania jest późniejsza niż data zameldowania oraz czy pokój jest dostępny w podanym terminie.
+
+Dla usług hotelowych sprawdzana jest nazwa i cena. Nazwa nie może być pusta ani zbyt długa, a cena nie może być ujemna. Dzięki temu użytkownik nie może zapisać podstawowo błędnych danych.
+
+\section{Obsługa błędów i wyjątków}
+
+W projekcie zastosowano prostą obsługę błędów. Metody ViewModelu wywołują operacje serwisu wewnątrz bloków \texttt{try/catch}. Jeżeli wystąpi błąd, komunikat zostaje pokazany użytkownikowi w dolnej części okna.
+
+Przykładowo, gdy użytkownik wybierze datę wymeldowania wcześniejszą niż data zameldowania, system nie zapisze rezerwacji i pokaże informację o błędzie. Podobnie aplikacja reaguje na próbę dodania płatności z kwotą mniejszą lub równą zero.
+
+\section{Czytelność i organizacja projektu}
+
+Nazwy klas odpowiadają elementom domeny hotelowej, na przykład \texttt{Guest}, \texttt{Room}, \texttt{Reservation}, \texttt{Payment} i \texttt{Service}. Dzięki temu łatwo zrozumieć, za co odpowiada dana część kodu. Projekt nie jest nadmiernie skomplikowany, ale spełnia wymagania dotyczące podziału na warstwy, obsługi bazy danych i organizacji interfejsu użytkownika.

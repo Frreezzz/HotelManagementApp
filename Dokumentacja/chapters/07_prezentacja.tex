@@ -1,0 +1,41 @@
+\chapter{Prezentacja warstwy użytkowej projektu}
+\section{Zrzuty ekranu aplikacji}
+
+W tej części wstawiono zrzuty ekranu. Pokazują one najważniejsze widoki aplikacji i odpowiadają strukturze programu \texttt{HotelManagementApp}.
+
+\screenplaceholder{01_ekran_glowny.eps}{Ekran główny aplikacji z kartami statystyk i opisem modułów}
+
+\screenplaceholder{02_goscie.eps}{Widok zarządzania gośćmi hotelowymi}
+
+\screenplaceholder{03_pokoje.eps}{Widok pokoi hotelowych z typem pokoju i statusem}
+
+\screenplaceholder{04_rezerwacje.eps}{Widok tworzenia rezerwacji dla wybranego gościa i pokoju}
+
+\screenplaceholder{05_platnosci.eps}{Widok płatności przypisanych do rezerwacji}
+
+\screenplaceholder{06_pracownicy.eps}{Widok pracowników hotelu}
+
+\screenplaceholder{07_uslugi.eps}{Widok usług z możliwością dodawania i edycji}
+
+
+\section{Opis działania najważniejszych funkcjonalności}
+
+Najważniejszą częścią aplikacji jest możliwość zarządzania rezerwacjami hotelowymi. Użytkownik wybiera gościa, pokój i termin pobytu. Program sprawdza, czy pokój jest dostępny, a następnie oblicza cenę na podstawie typu pokoju i liczby nocy.
+
+Drugą ważną funkcją jest obsługa płatności. Użytkownik wybiera rezerwację, wpisuje kwotę i zapisuje płatność. Dane są widoczne w tabeli płatności oraz wpływają na statystyki na panelu głównym.
+
+Kolejna funkcja to moduł usług. Użytkownik może dodać nową usługę, na przykład parking albo śniadanie, oraz edytować istniejącą usługę. Formularz został przygotowany tak, aby jedna sekcja służyła do dodawania i edycji.
+
+\section{Prezentacja interfejsu użytkownika}
+
+Interfejs został podzielony na trzy główne części. Na górze znajduje się nagłówek z nazwą systemu i przyciskiem odświeżenia danych. W środku znajduje się obszar roboczy z zakładkami. Komunikaty o błędach i wykonanych operacjach są pokazywane w formularzach lub w aktywnej sekcji programu, zależnie od wykonywanej operacji.
+
+Panel główny pokazuje najważniejsze statystyki: aktywne rezerwacje, liczbę gości, dostępne pokoje, liczbę usług i wartość płatności. Dzięki temu użytkownik po uruchomieniu programu od razu widzi aktualny stan systemu.
+
+\section{Przykładowe scenariusze działania aplikacji}
+
+Pierwszy scenariusz dotyczy dodania gościa. Użytkownik przechodzi do widoku gości, wpisuje imię, nazwisko, telefon, adres e-mail i numer dokumentu, a następnie naciska przycisk dodania. Jeżeli dane są poprawne, gość pojawia się w tabeli.
+
+Drugi scenariusz dotyczy utworzenia rezerwacji. Użytkownik wybiera gościa, pokój, pracownika oraz datę zameldowania i wymeldowania. Po zapisaniu rezerwacja pojawia się na liście. Jeżeli pokój jest zajęty w podanym terminie, aplikacja pokazuje komunikat o braku dostępności.
+
+Trzeci scenariusz dotyczy edycji usługi. Użytkownik przechodzi do widoku usług, wybiera usługę z tabeli, zmienia nazwę lub cenę i naciska przycisk zapisu. System zapisuje zmiany w bazie danych.
