@@ -79,25 +79,3 @@ Główne tabele:
 4. Uruchom projekt przyciskiem **Start**.
 5. Przy pierwszym uruchomieniu zostanie utworzona lokalna baza danych `hotel.db` oraz dane przykładowe.
 
-## Komendy EF Core
-
-W razie potrzeby można użyć komend:
-
-```bash
-dotnet ef database update
-```
-
-Nowa migracja:
-
-```bash
-dotnet ef migrations add NazwaMigracji
-```
-
-## Proponowany opis na obronę
-
-Projekt został wykonany w architekturze MVVM. Warstwa widoku znajduje się w pliku `MainWindow.xaml`, logika prezentacji w `MainViewModel`, natomiast logika biznesowa w `HotelService`. Dostęp do danych jest realizowany przez Entity Framework Core oraz wzorzec Repository. Baza danych została zaprojektowana z uwzględnieniem kluczy głównych, kluczy obcych, relacji jeden-do-wielu oraz relacji wiele-do-wielu dla usług przypisanych do rezerwacji.
-
-
-## Aktualizacja interfejsu
-
-Panel główny został rozbudowany o kafelki statystyczne, listę ostatnich rezerwacji oraz krótkie podsumowanie modułów systemu. Zakładka „Usługi” umożliwia dodawanie nowych usług oraz edycję istniejących pozycji po zaznaczeniu rekordu w tabeli.
