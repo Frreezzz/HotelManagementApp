@@ -1,0 +1,72 @@
+erDiagram
+    GUESTS ||--o{ RESERVATIONS : makes
+    ROOMTYPES ||--o{ ROOMS : defines
+    ROOMS ||--o{ RESERVATIONS : contains
+    EMPLOYEES ||--o{ RESERVATIONS : handles
+    RESERVATIONS ||--o{ PAYMENTS : has
+    RESERVATIONS ||--o{ RESERVATION_SERVICES : includes
+    SERVICES ||--o{ RESERVATION_SERVICES : assigned
+
+    GUESTS {
+        int Id PK
+        string FirstName
+        string LastName
+        string Email UK
+        string Phone
+        string DocumentNumber
+    }
+
+    ROOMTYPES {
+        int Id PK
+        string Name
+        string Description
+        int Capacity
+        decimal PricePerNight
+    }
+
+    ROOMS {
+        int Id PK
+        string Number UK
+        int Floor
+        int Status
+        int RoomTypeId FK
+    }
+
+    RESERVATIONS {
+        int Id PK
+        int GuestId FK
+        int RoomId FK
+        int EmployeeId FK
+        datetime CheckInDate
+        datetime CheckOutDate
+        int Status
+        decimal TotalPrice
+    }
+
+    PAYMENTS {
+        int Id PK
+        int ReservationId FK
+        decimal Amount
+        int Method
+        datetime PaidAt
+    }
+
+    EMPLOYEES {
+        int Id PK
+        string FirstName
+        string LastName
+        string Position
+    }
+
+    SERVICES {
+        int Id PK
+        string Name
+        decimal Price
+    }
+
+    RESERVATION_SERVICES {
+        int ReservationId PK,FK
+        int ServiceId PK,FK
+        int Quantity
+        decimal UnitPrice
+    }
